@@ -14,7 +14,6 @@ configurations {
 	}
 }
 
-
 springBoot {
 	mainClass = 'com.tistory.postforty.book.springboot.Application'
 }
