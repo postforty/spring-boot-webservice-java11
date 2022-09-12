@@ -14,6 +14,11 @@ configurations {
 	}
 }
 
+
+springBoot {
+	mainClass = 'com.tistory.postforty.book.springboot.Application'
+}
+
 repositories {
 	mavenCentral()
 }
@@ -39,3 +44,4 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+
